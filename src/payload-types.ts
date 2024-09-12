@@ -336,7 +336,7 @@ export interface Post {
  */
 export interface User {
   id: string;
-  name?: string | null;
+  name: string;
   updatedAt: string;
   createdAt: string;
   email: string;
